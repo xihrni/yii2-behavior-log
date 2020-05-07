@@ -13,6 +13,9 @@ $ composer require xihrni/yii2-behavior-log
 yii migrate --migrationPath=@vendor/xihrni/yii2-behavior-log/migrations
 ```
 
+### Model
+复制已准备好的模型到项目中，目录为：`@vendor/xihrni/yii2-behavior-log/models`
+
 ### Controller
 ```php
 <?php
