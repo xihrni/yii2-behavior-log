@@ -1,0 +1,23 @@
+{
+  "name": "xihrni/yii2-behavior-log",
+  "description": "The behavior log used to record the operation.",
+  "keywords": ["yii2", "behavior", "action", "log"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "require": {
+    "yiisoft/yii2": "*",
+    "xihrni/php-tools": ">=0.0.4",
+    "xihrni/yii2-behavior-time": ">=0.0.2"
+  },
+  "authors": [
+    {
+      "name": "xihrni",
+      "email": "xihrni@126.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "xihrni\\yii2\\behaviors\\": "src/"
+    }
+  }
+}
